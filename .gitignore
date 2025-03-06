@@ -2,3 +2,49 @@
 venv/
 .env/
 .venv/
+
+# Ignore Python bytecode and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore node_modules and build files
+node_modules/
+dist/
+build/
+
+# Ignore logs and temporary files
+*.log
+logs/
+*.sqlite3
+db.sqlite3
+
+# Ignore VS Code and JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore dependency lock files (optional)
+package-lock.json
+yarn.lock
+
+# Ignore Flask instance and migrations
+instance/
+migrations/
+
+# Ignore frontend build files (if applicable)
+frontend/build/
+frontend/dist/
+
+# Ignore coverage reports
+coverage/
+*.cover
+.nyc_output/
+coverage.xml
